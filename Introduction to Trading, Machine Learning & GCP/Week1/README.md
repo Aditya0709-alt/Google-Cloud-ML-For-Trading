@@ -12,10 +12,44 @@ Next, we go ahead and fit the model on our training data. Since we don't have a 
 
 To gauge how good our model is, we'll use two metrics; the Root Mean Squared Error and the variance score. The Root Mean Squared Error attempts to engage on average how far off your prediction is when the truth; the lower the better. The variance score is how correlated your prediction are to the truth; the closer to one the better. Now, getting good values for these metrics doesn't necessarily mean your model is useful. It all depends on the context. In this case, would you be okay with being off by around three points for your closing value prediction? As a sanity check, whenever you build a regression model, I'd like to plot the predictions against the truth like we do in this cell here.
 
+
+### Data Trends
+
 <img width="1180" alt="Screenshot 2023-09-22 at 3 36 52 PM" src="https://github.com/Aditya0709-alt/ds-algo/assets/77115883/7ced448f-d90b-46e2-8e8a-eda3b231fe40">
 
-
-
-## Best Fit Line
+### Best Fit Line
 
 <img width="1240" alt="Screenshot 2023-09-22 at 3 36 14 PM" src="https://github.com/Aditya0709-alt/ds-algo/assets/77115883/c61767ee-2212-4bad-aaab-8ece08b2c940">
+
+
+## Trading Fundamentals
+
+The financial markets have evolved to become faster and more efficient, with trading strategies aiming to exploit fleeting opportunities. This discussion will cover the differences between trading and investing, the main strategy categories in quantitative trading, and their strengths and weaknesses.
+
+1. **Trading vs. Investing**
+   - Buy-side firms primarily invest and advise, including asset managers like private equity, mutual funds, and quantitative hedge funds.
+   - Sell-side firms, such as banks and broker dealers, sell investments and provide market-making services.
+
+2. **Investment Strategies**
+   - Portfolio managers on the buy side make long-term strategic asset allocation decisions and shorter-term tactical decisions.
+   - The most common strategy is buying and holding undervalued assets based on fundamental analysis.
+
+3. **Hedge Fund Strategies**
+   - Hedge funds employ traders, developers, and researchers to implement quantitative strategies.
+   - Their goal is to generate Alpha, a positive return independent of market movements, often achieved by minimizing risks.
+
+4. **Alpha in Portfolio Management**
+   - Portfolio manager Alpha comes from long asset holdings exposed to market, sector, and company risk.
+   - Hedge fund Alpha comes from risk-mitigating strategies, distinct from market exposure.
+
+5. **Rebalancing**
+   - Portfolio managers use fundamental analysis to rebalance portfolios, adjusting asset allocations.
+   - Trading firms have shorter time frames and rarely rely on fundamentals; they seek market inefficiencies.
+
+6. **Quantitative Methods**
+   - Buy-side quant methods include regression, prediction models, statistical arbitrage, and machine learning.
+   - Sell-side quant methods focus on execution strategies, reducing market impact and providing liquidity.
+
+Both buy-side and sell-side firms may employ execution strategies when executing trading orders.
+
+In summary, the financial world distinguishes between trading and investing, with different strategies and goals. While portfolio managers use fundamental analysis and rebalancing for long-term gains, hedge funds and trading firms pursue Alpha by exploiting market inefficiencies with shorter time frames and quantitative methods. Sell-side firms contribute by facilitating large order execution and market making.
