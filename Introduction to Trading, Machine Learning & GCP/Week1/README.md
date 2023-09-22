@@ -53,3 +53,33 @@ The financial markets have evolved to become faster and more efficient, with tra
 Both buy-side and sell-side firms may employ execution strategies when executing trading orders.
 
 In summary, the financial world distinguishes between trading and investing, with different strategies and goals. While portfolio managers use fundamental analysis and rebalancing for long-term gains, hedge funds and trading firms pursue Alpha by exploiting market inefficiencies with shorter time frames and quantitative methods. Sell-side firms contribute by facilitating large order execution and market making.
+
+### Quant Strategies
+
+Quant strategies are rule-based approaches used to generate orders and manage risk based on historical price data analysis.
+They can range from low-frequency to high-frequency trading, with high-frequency strategies requiring sub-millisecond capabilities.
+
+1. **Forecasting Methods**:
+   - Quantitative strategies attempt to forecast future asset values or price spreads between assets based on statistically significant factors.
+   - Mean reversion strategies rely on the stability of an asset's price or spread relative to another asset, reverting to its long-term mean when too high or low.
+
+2. **Correlation vs. Co-integration**:
+   - Correlation measures how two variables move together over time, ranging from -1 (perfect negative correlation) to 1 (perfect positive correlation).
+   - Co-integration assesses whether the difference between means of variables remains constant over time and is distinct from correlation.
+
+3. **Momentum and Trend-Following**:
+   - Momentum strategies involve buying past winners and selling past losers, opposite to mean reversion strategies.
+   - Momentum strategies have outperformed the S&P 500 in recent years, partly due to underreaction and overreaction to market information.
+
+4. **Market Micro-Structure**:
+   - Market micro-structure encompasses trading infrastructure, rules, behaviors, and patterns.
+   - High-frequency traders exploit infrastructure anomalies and competitor behavior using game theory models.
+   - They also aim to detect and profit from large orders broken up and hidden using execution strategies.
+
+5. **Spoofing**:
+   - Spoofing involves misleading other traders by submitting non-intentional orders to the market to manipulate prices.
+   - Traders may use this tactic to encourage better prices for their trades.
+
+In summary, quantitative trading strategies are rule-based methods that leverage historical price data analysis to generate orders and manage risk. These strategies encompass various approaches, including mean reversion, momentum, and exploiting market micro-structure, such as detecting large hidden orders and spoofing tactics.
+
+
