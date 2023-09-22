@@ -83,3 +83,22 @@ They can range from low-frequency to high-frequency trading, with high-frequency
 In summary, quantitative trading strategies are rule-based methods that leverage historical price data analysis to generate orders and manage risk. These strategies encompass various approaches, including mean reversion, momentum, and exploiting market micro-structure, such as detecting large hidden orders and spoofing tactics.
 
 
+### Arbitrage
+
+**Statistical arbitrage**, also referred to as stat arb, is a computationally intensive approach to algorithmically trading financial market assets such as equities and commodities. It involves the simultaneous buying and selling of security portfolios according to predefined or adaptive statistical models.
+
+Statistical arbitrage techniques are modern variations of the classic cointegration-based pairs trading strategy. This strategy is based on short-term mean reversion principles coupled with hedging strategies that take care of overall market risk.
+
+Hedge funds, mutual funds, and proprietary trading firms build, test, and implement trading strategies based on statistical arbitrage. An effective workflow entails:
+
+- Gathering data from databases and industry-standard datafeeds
+- Designing, testing, and optimizing trading strategies
+- Applying advanced statistical techniques such as machine learning
+- Performing CVaR portfolio optimization
+- Connecting to trading platforms and managing an order workflow
+
+
+**Index arbitrage** is a trading strategy attempts to profit from differences between one or more versions of an index, or between an index and its components. Opportunities for arbitrage may be millisecond differences. This kind of arbitrage is most often employed by large financial institutions with the resources necessary to capture many fleeting disparities. The role of this arbitrage is that it keeps markets synchronized on price throughout the trading session.
+
+**Currency arbitrage** is the exploitation of differences in quotes offered by brokers. The strategy involves simultaneously buying and selling the same security on two different markets. Strategies can include two-currency arbitrage and three-currency arbitrage.
+
